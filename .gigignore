@@ -1,0 +1,72 @@
+# .gitignore file
+#
+# This file tells 'git' what files and directories it should ignore.
+# @author: Paul Haskell and Kristin Jones
+
+
+# Git files to ignore (Git always ignores ".git")
+.gitignore
+
+# Project files to ignore
+MyWork/
+
+# Executable files to ignore
+bin/
+__pycache__/
+*.class
+*.o
+*.a
+*.exe
+*~
+*.pyc
+*.tmp
+
+# Eclipse files to ignore
+Debug/
+Release/
+.metadata/
+.recommenders/
+.sonarlint/
+.settings/
+.classpath
+.project
+.cproject
+
+# PyCharm files to ignore
+.idea/
+.run/
+venv/
+shelf/
+workspace.xml
+
+# Visual Studio files to ignore
+.history/
+.vscode/
+.vshistory/
+.localhistory/
+*.cab
+*.msi
+*.[Cc]ache
+*.coverage
+*.coveragexml
+*.meta
+*.obj
+*.sln
+
+# MacOS files to ignore
+.DS_store
+
+# MS-Windows files to ignore
+Thumbs.db
+
+# Maven files to ignore
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
